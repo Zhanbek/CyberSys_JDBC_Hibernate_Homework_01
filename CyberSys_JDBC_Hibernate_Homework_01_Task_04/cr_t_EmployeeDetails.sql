@@ -1,8 +1,8 @@
-CREATE TABLE EmployeeDetails (
+CREATE TABLE employee_details (
     Id INT PRIMARY KEY  AUTO_INCREMENT PRIMARY KEY,
-    EmployeeId INT,
-    MaritalStatus VARCHAR(50),
+    employee_id INT,
+    Marital_Status VARCHAR(50),
     BirthDate DATE,
     Address VARCHAR(300),
-    FOREIGN KEY (EmployeeID) REFERENCES Employees(Id)
+    FOREIGN KEY (employee_id) REFERENCES Employees(Id)
 );

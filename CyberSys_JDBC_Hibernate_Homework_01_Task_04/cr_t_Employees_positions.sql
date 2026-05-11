@@ -1,4 +1,4 @@
-CREATE TABLE Employees_positions (
+CREATE TABLE employees_positions (
     Employee_id INT,
     Position_id INT,
     begin_date DATE NOT NULL,
