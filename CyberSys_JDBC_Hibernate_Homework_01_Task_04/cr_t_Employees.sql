@@ -1,0 +1,5 @@
+CREATE TABLE Employees (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Phone VARCHAR(20)
+);
