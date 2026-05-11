@@ -2,6 +2,8 @@ package CyberSys;
 
 import java.sql.*;
 
+// !!! Перед запуском програми необхідно виконати скрипти з папки WorkBench_Scripts !!!
+
 public class Main {
 
     private static final String URL = "jdbc:mysql://localhost:3306/testdb?useSSL=false";
